@@ -9,8 +9,9 @@ function conversao(){
 var texto1 = document.getElementById("conversao1")
 var valor1 = Number(texto1.value)
 var soma = valor1 * 5.76
+var soma1 = soma.toFixed(2)
 var res = document.getElementById('res')
-res.innerHTML = `O valor do Dolar ${valor1} convertido em Real é ${soma}`
+res.innerHTML = `O valor do Dolar ${valor1} convertido em Real é ${soma1}`
 }
 
 //var valor3 = parseInt(prompt("Digite o primeiro valor: "))
